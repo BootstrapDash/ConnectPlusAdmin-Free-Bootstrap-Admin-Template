@@ -1,0 +1,176 @@
+/* Auth */
+
+.auth {
+	.login-half-bg {
+		background: url("../../images/auth/login-bg.jpg");
+		background-size: cover;
+	}
+	.register-half-bg {
+		background: url("../../images/auth/register-bg.jpg");
+		background-size: cover;
+	}
+	&.lock-full-bg {
+		background: url("../../images/auth/lockscreen-bg.jpg");
+		background-size: cover;
+	}
+	.lock-profile-img {
+		width: 90px;
+		height: 90px;
+		border-radius: 100%;
+	}
+	.auth-form-dark {
+		background: rgba($black, .6);
+		color: $white;
+		.form-control {
+			border-color: rgba($white, .2);
+			color: $white;
+			@include input-placeholder{
+				color: $white;
+			}
+		}
+	}
+	.auth-form-light {
+		background: $white;
+		select {
+			color: $input-placeholder-color;
+		}
+		.input-group {
+			.form-control {
+				&:focus,
+				&:active {
+					border-color: $border-color;
+				}
+			}
+		}
+	}
+	.auth-form-transparent {
+		background: transparent;
+		.form-control,
+		.input-group-text {
+			border-color: theme-color(secondary);
+			&:focus,
+			&:active {
+				border-color: theme-color(secondary);
+			}
+		}
+		select {
+			outline-color: theme-color(secondary);
+		}
+	}
+	&.auth-img-bg {
+		padding: 0;
+		.auth-form-transparent {
+			@media (min-width:768px) {
+				width: 55%;
+				margin: auto;
+			}
+		}
+	}
+	.brand-logo {
+		margin-bottom: 2rem;
+		img {
+			width: 150px;
+		}
+	}
+	form {
+		.form-group {
+			margin-bottom: 1.5rem;
+			label {
+				font-size: .8125rem;
+			}
+			.form-control {
+				background: transparent;
+				border-radius: 0;
+				font-size: .9375rem;
+			}
+		}
+		.auth-form-btn {
+			height: 50px;
+			line-height: 1.5;
+		}
+		.auth-link {
+			font-size: $default-font-size;
+			&:hover {
+				color: initial;
+			}
+		}
+	}
+	&.multi-step-login {
+    height: 100%;
+    min-height: 100vh;
+    background: $content-bg;
+
+    .step-form {
+      position: relative;
+      width: 530px;
+      margin: 50px auto;
+      text-align: center;
+
+      .step-progress {
+        padding-left: 0;
+        list-style-type: none;
+        margin-bottom: 30px;
+        overflow: hidden;
+        counter-reset: step;
+        display: flex;
+        justify-content: space-around;
+
+        li {
+          position: relative;
+          list-style-type: none;
+          color: $body-color;
+          font-size: 18px;
+          font-weight: 500;
+          float: left;
+
+          &:before {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            content: counter(step);
+            counter-increment: step;
+            width: 30px;
+            height: 30px;
+            line-height: 20px;
+            font-size: 16px;
+            font-weight: 600;
+            color: $body-color;
+            background: darken($content-bg, 5%);
+            border-radius: 100px;
+            margin: 0 auto 5px auto;
+          }
+
+          &.active {
+            &:before {
+              background: theme-color(success);
+              color: #fff;
+            }
+          }
+
+          &:first-child:after {
+            content: none;
+          }
+        }
+      }
+
+      fieldset {
+        background: $card-bg;
+        border-radius: 10px;
+        padding: 30px 30px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+
+        &:not(:first-of-type) {
+          display: none;
+        }
+      }
+
+      .form-control {
+        height: 40px;
+        border-radius: 4px;
+      }
+    }
+  }
+}

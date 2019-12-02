@@ -1,0 +1,39 @@
+/* Lock Screen */
+
+.lock-screen{
+    position: relative;
+    overflow: hidden;
+  .backhground-bg{
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    left: -20px;
+    bottom: -20px;
+    background: url("../images/samples/lockscreen-bg.jpg") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 100%;
+  }
+  .card{
+    background: rgba(0,0,0,0);
+    @include border-radius(6px);
+    .card-body{
+      img{
+        width: 90px;
+        height:90px;
+        @include border-radius(100%);
+        border:3px solid rgba($white, 0.2);
+        @extend .mb-3;
+      }
+      p{
+        @extend .mb-3;
+      }
+      input[type="text"]{
+        background: rgba(255, 255, 255, 0.55);
+        border: none;
+        width: 80%;
+        margin: auto;
+      }
+    }
+  }
+}

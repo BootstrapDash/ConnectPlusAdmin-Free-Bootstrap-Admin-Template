@@ -1,0 +1,31 @@
+/* Fonts */
+
+//PT_Sans
+@font-face {
+  font-family: 'nunito-light'; 
+  src: url('../fonts/Nunito/Nunito-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Nunito/Nunito-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Nunito/Nunito-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Nunito/Nunito-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'nunito-regular';
+  src: url('../fonts/Nunito/Nunito-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Nunito/Nunito-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Nunito/Nunito-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Nunito/Nunito-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'nunito-medium';
+  src: url('../fonts/Nunito/Nunito-SemiBold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Nunito/Nunito-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Nunito/Nunito-SemiBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Nunito/Nunito-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'nunito-bold';
+  src: url('../fonts/Nunito/Nunito-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Nunito/Nunito-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Nunito/Nunito-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Nunito/Nunito-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+}

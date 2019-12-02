@@ -1,0 +1,25 @@
+/* Footer */
+
+.footer {
+  background: $footer-bg;
+  color: $footer-color;
+  border-top: none;
+  padding: 1.5rem 3rem 1.5rem 3rem;
+  transition: all $action-transition-duration $action-transition-timing-function;
+  -moz-transition: all $action-transition-duration $action-transition-timing-function;
+  -webkit-transition: all $action-transition-duration $action-transition-timing-function;
+  -ms-transition: all $action-transition-duration $action-transition-timing-function;
+  font-size: $default-font-size;
+  font-family: $type1-regular;
+  .footer-inner-wraper {
+    @include make-container();
+    }
+  a {
+    color: $body-color;
+    font-size: inherit;
+  }
+  @media (max-width: 991px) {
+    margin-left: 0;
+    width: 100%;
+  }
+}
