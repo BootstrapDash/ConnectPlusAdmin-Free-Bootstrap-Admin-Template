@@ -155,7 +155,7 @@
 
   .text-avatar {
     @extend .bg-inverse-light;
-    color: theme-color(primary);
+    color: $primary;
     font-size: 11px;
     font-weight: 600;
   }
@@ -185,7 +185,7 @@
     align-items: center;
     justify-content: center;
     background: color(gray-light);
-    color: theme-color(dark);
+    color: $dark;
     border: 3px solid $white;
 
     i {

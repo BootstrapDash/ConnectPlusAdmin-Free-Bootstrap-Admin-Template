@@ -31,7 +31,7 @@ border-bottom: 1px solid $nav-tabs-border-color
     ul {
       li {
         .legend-box {
-          background: theme-color(primary);
+          background: $primary;
         }
       }
     }
@@ -165,7 +165,7 @@ border-bottom: 1px solid $nav-tabs-border-color
     }
 
     &.purchase-button {
-      background-color: theme-color(info);
+      background-color: $info;
       color: $white;
       border: none;
       line-height: 1;

@@ -1,6 +1,6 @@
 @mixin social-button($color) {
     background: $color;
-    color: $white;
+    color: darken($color, 30%);
   
     &:hover,
     &:focus {
@@ -33,7 +33,7 @@
     &:not(.btn-inverse-light) {
       color: $color;      
     }
-    @include hover {
+    &:hover {
       color: $color-hover;
       background-color: $color;
       border-color: $color;
@@ -55,27 +55,6 @@
     .show > &.dropdown-toggle {
       color: $color-hover;
       background-color: $color;
-      border-color: $color;
+      border-color: $color; 
     }
 }
-// @mixin button-gradient-variant($value) {
-//     background: $value;
-//     border: 0;
-//     &:not([disabled]):not(.disabled):active,
-//     &:not([disabled]):not(.disabled).active,
-//     .show > &.dropdown-toggle {
-//       background: $value;
-//     }
-//     &:hover {
-//       opacity: .8;
-//     }
-//     &:not(.btn-gradient-light) {
-//       color: $white;      
-//       &:hover,
-//       &:focus,
-//       &:active {
-//         color: $white;
-//       }
-//     }
-//     @include transition(opacity .3s ease);
-// }

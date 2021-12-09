@@ -158,7 +158,7 @@
 
             &.outgoing-chat {
                 .chat-message {
-                    background: theme-color(primary);
+                    background: $primary;
                     margin-left: auto;
                     max-width: 290px;
                     margin-right: 45px;

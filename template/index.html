@@ -23,6 +23,24 @@
   </head>
   <body>
     <div class="container-scroller">
+      <div class="row p-0 m-0 proBanner" id="proBanner">
+        <div class="col-md-12 p-0 m-0">
+          <div class="card-body card-body-padding d-flex align-items-center justify-content-between">
+            <div class="ps-lg-1">
+              <div class="d-flex align-items-center justify-content-between">
+                <p class="mb-0 font-weight-medium me-3 buy-now-text">Free 24/7 customer support, updates, and more with this template!</p>
+                <a href="https://www.bootstrapdash.com/product/connect-plus-bootstrap-admin-template/?utm_source=organic&utm_medium=banner&utm_campaign=buynow_demo" target="_blank" class="btn me-2 buy-now-btn border-0">Get Pro</a>
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <a href="https://www.bootstrapdash.com/product/connect-plus-bootstrap-admin-template/"><i class="mdi mdi-home me-3 text-white"></i></a>
+              <button id="bannerClose" class="btn border-0 p-0">
+                <i class="mdi mdi-close text-white me-0"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- partial:partials/_navbar.html -->
       <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
@@ -45,30 +63,30 @@
           </div>
           <ul class="navbar-nav navbar-nav-right">
             <li class="nav-item  dropdown d-none d-md-block">
-              <a class="nav-link dropdown-toggle" id="reportDropdown" href="#" data-toggle="dropdown" aria-expanded="false"> Reports </a>
+              <a class="nav-link dropdown-toggle" id="reportDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false"> Reports </a>
               <div class="dropdown-menu navbar-dropdown" aria-labelledby="reportDropdown">
                 <a class="dropdown-item" href="#">
-                  <i class="mdi mdi-file-pdf mr-2"></i>PDF </a>
+                  <i class="mdi mdi-file-pdf me-2"></i>PDF </a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">
-                  <i class="mdi mdi-file-excel mr-2"></i>Excel </a>
+                  <i class="mdi mdi-file-excel me-2"></i>Excel </a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">
-                  <i class="mdi mdi-file-word mr-2"></i>doc </a>
+                  <i class="mdi mdi-file-word me-2"></i>doc </a>
               </div>
             </li>
             <li class="nav-item  dropdown d-none d-md-block">
-              <a class="nav-link dropdown-toggle" id="projectDropdown" href="#" data-toggle="dropdown" aria-expanded="false"> Projects </a>
+              <a class="nav-link dropdown-toggle" id="projectDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false"> Projects </a>
               <div class="dropdown-menu navbar-dropdown" aria-labelledby="projectDropdown">
                 <a class="dropdown-item" href="#">
-                  <i class="mdi mdi-eye-outline mr-2"></i>View Project </a>
+                  <i class="mdi mdi-eye-outline me-2"></i>View Project </a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">
-                  <i class="mdi mdi-pencil-outline mr-2"></i>Edit Project </a>
+                  <i class="mdi mdi-pencil-outline me-2"></i>Edit Project </a>
               </div>
             </li>
             <li class="nav-item nav-language dropdown d-none d-md-block">
-              <a class="nav-link dropdown-toggle" id="languageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" id="languageDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                 <div class="nav-language-icon">
                   <i class="flag-icon flag-icon-us" title="us" id="us"></i>
                 </div>
@@ -78,7 +96,7 @@
               </a>
               <div class="dropdown-menu navbar-dropdown" aria-labelledby="languageDropdown">
                 <a class="dropdown-item" href="#">
-                  <div class="nav-language-icon mr-2">
+                  <div class="nav-language-icon me-2">
                     <i class="flag-icon flag-icon-ae" title="ae" id="ae"></i>
                   </div>
                   <div class="nav-language-text">
@@ -87,7 +105,7 @@
                 </a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">
-                  <div class="nav-language-icon mr-2">
+                  <div class="nav-language-icon me-2">
                     <i class="flag-icon flag-icon-gb" title="GB" id="gb"></i>
                   </div>
                   <div class="nav-language-text">
@@ -97,7 +115,7 @@
               </div>
             </li>
             <li class="nav-item nav-profile dropdown">
-              <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                 <div class="nav-profile-img">
                   <img src="assets/images/faces/face28.png" alt="image">
                 </div>
@@ -110,19 +128,19 @@
                   <img class="img-avatar img-avatar48 img-avatar-thumb" src="assets/images/faces/face28.png" alt="">
                 </div>
                 <div class="p-2">
-                  <h5 class="dropdown-header text-uppercase pl-2 text-dark">User Options</h5>
+                  <h5 class="dropdown-header text-uppercase ps-2 text-dark">User Options</h5>
                   <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="#">
                     <span>Inbox</span>
                     <span class="p-0">
                       <span class="badge badge-primary">3</span>
-                      <i class="mdi mdi-email-open-outline ml-1"></i>
+                      <i class="mdi mdi-email-open-outline ms-1"></i>
                     </span>
                   </a>
                   <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="#">
                     <span>Profile</span>
                     <span class="p-0">
                       <span class="badge badge-success">1</span>
-                      <i class="mdi mdi-account-outline ml-1"></i>
+                      <i class="mdi mdi-account-outline ms-1"></i>
                     </span>
                   </a>
                   <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="javascript:void(0)">
@@ -130,24 +148,24 @@
                     <i class="mdi mdi-settings"></i>
                   </a>
                   <div role="separator" class="dropdown-divider"></div>
-                  <h5 class="dropdown-header text-uppercase  pl-2 text-dark mt-2">Actions</h5>
+                  <h5 class="dropdown-header text-uppercase  ps-2 text-dark mt-2">Actions</h5>
                   <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="#">
                     <span>Lock Account</span>
-                    <i class="mdi mdi-lock ml-1"></i>
+                    <i class="mdi mdi-lock ms-1"></i>
                   </a>
                   <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="#">
                     <span>Log Out</span>
-                    <i class="mdi mdi-logout ml-1"></i>
+                    <i class="mdi mdi-logout ms-1"></i>
                   </a>
                 </div>
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="mdi mdi-email-outline"></i>
                 <span class="count-symbol bg-success"></span>
               </a>
-              <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
+              <div class="dropdown-menu dropdown-menu-end navbar-dropdown preview-list" aria-labelledby="messageDropdown">
                 <h6 class="p-3 mb-0 bg-primary text-white py-4">Messages</h6>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item preview-item">
@@ -184,11 +202,11 @@
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+              <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-bs-toggle="dropdown">
                 <i class="mdi mdi-bell-outline"></i>
                 <span class="count-symbol bg-danger"></span>
               </a>
-              <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+              <div class="dropdown-menu dropdown-menu-end navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
                 <h6 class="p-3 mb-0 bg-primary text-white py-4">Notifications</h6>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item preview-item">
@@ -249,7 +267,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
                 <span class="icon-bg"><i class="mdi mdi-crosshairs-gps menu-icon"></i></span>
                 <span class="menu-title">UI Elements</span>
                 <i class="menu-arrow"></i>
@@ -287,7 +305,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+              <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
                 <span class="icon-bg"><i class="mdi mdi-lock menu-icon"></i></span>
                 <span class="menu-title">User Pages</span>
                 <i class="menu-arrow"></i>
@@ -351,26 +369,16 @@
         <!-- partial -->
         <div class="main-panel">
           <div class="content-wrapper">
-            <div class="row" id="proBanner">
-              <div class="col-12">
-                <span class="d-flex align-items-center purchase-popup">
-                  <p>Like what you see? Check out our premium version for more.</p>
-                  <a href="https://github.com/BootstrapDash/ConnectPlusAdmin-Free-Bootstrap-Admin-Template" target="_blank" class="btn ml-auto download-button">Download Free Version</a>
-                  <a href="http://www.bootstrapdash.com/demo/connect-plus/jquery/template/" target="_blank" class="btn purchase-button">Upgrade To Pro</a>
-                  <i class="mdi mdi-close" id="bannerClose"></i>
-                </span>
-              </div>
-            </div>
             <div class="d-xl-flex justify-content-between align-items-start">
               <h2 class="text-dark font-weight-bold mb-2"> Overview dashboard </h2>
               <div class="d-sm-flex justify-content-xl-between align-items-center mb-2">
                 <div class="btn-group bg-white p-3" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-link text-light py-0 border-right">7 Days</button>
+                  <button type="button" class="btn btn-link text-gray py-0 border-right">7 Days</button>
                   <button type="button" class="btn btn-link text-dark py-0 border-right">1 Month</button>
-                  <button type="button" class="btn btn-link text-light py-0">3 Month</button>
+                  <button type="button" class="btn btn-link text-gray py-0">3 Month</button>
                 </div>
-                <div class="dropdown ml-0 ml-md-4 mt-2 mt-lg-0">
-                  <button class="btn bg-white dropdown-toggle p-3 d-flex align-items-center" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-calendar mr-1"></i>24 Mar 2019 - 24 Mar 2019 </button>
+                <div class="dropdown ms-0 ml-md-4 mt-2 mt-lg-0">
+                  <button class="btn bg-white dropdown-toggle p-3 d-flex align-items-center" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-calendar me-1"></i>24 Mar 2019 - 24 Mar 2019 </button>
                   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton1">
                     <h6 class="dropdown-header">Settings</h6>
                     <a class="dropdown-item" href="#">Action</a>
@@ -387,16 +395,16 @@
                 <div class="d-sm-flex justify-content-between align-items-center transaparent-tab-border {">
                   <ul class="nav nav-tabs tab-transparent" role="tablist">
                     <li class="nav-item">
-                      <a class="nav-link" id="home-tab" data-toggle="tab" href="#" role="tab" aria-selected="true">Users</a>
+                      <a class="nav-link" id="home-tab" data-bs-toggle="tab" href="#" role="tab" aria-selected="true">Users</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" id="business-tab" data-toggle="tab" href="#business-1" role="tab" aria-selected="false">Business</a>
+                      <a class="nav-link active" id="business-tab" data-bs-toggle="tab" href="#business-1" role="tab" aria-selected="false">Business</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" id="performance-tab" data-toggle="tab" href="#" role="tab" aria-selected="false">Performance</a>
+                      <a class="nav-link" id="performance-tab" data-bs-toggle="tab" href="#" role="tab" aria-selected="false">Performance</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" id="conversion-tab" data-toggle="tab" href="#" role="tab" aria-selected="false">Conversion</a>
+                      <a class="nav-link" id="conversion-tab" data-bs-toggle="tab" href="#" role="tab" aria-selected="false">Conversion</a>
                     </li>
                   </ul>
                   <div class="d-md-block d-none">
@@ -461,7 +469,7 @@
                                 <div class="d-flex justify-content-between align-items-center mb-4">
                                   <h4 class="card-title mb-0">Recent Activity</h4>
                                   <div class="dropdown dropdown-arrow-none">
-                                    <button class="btn p-0 text-dark dropdown-toggle" type="button" id="dropdownMenuIconButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button class="btn p-0 text-dark dropdown-toggle" type="button" id="dropdownMenuIconButton1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                       <i class="mdi mdi-dots-vertical"></i>
                                     </button>
                                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuIconButton1">
@@ -494,14 +502,14 @@
                                 </div>
                               </div>
                               <div class="col-lg-9 col-sm-8 grid-margin  grid-margin-lg-0">
-                                <div class="pl-0 pl-lg-4 ">
+                                <div class="ps-0 ps-lg-4 ">
                                   <div class="d-xl-flex justify-content-between align-items-center mb-2">
                                     <div class="d-lg-flex align-items-center mb-lg-2 mb-xl-0">
-                                      <h3 class="text-dark font-weight-bold mr-2 mb-0">Devices sales</h3>
+                                      <h3 class="text-dark font-weight-bold me-2 mb-0">Devices sales</h3>
                                       <h5 class="mb-0">( growth 62% )</h5>
                                     </div>
                                     <div class="d-lg-flex">
-                                      <p class="mr-2 mb-0">Timezone:</p>
+                                      <p class="me-2 mb-0">Timezone:</p>
                                       <p class="text-dark font-weight-bold mb-0">GMT-0400 Eastern Delight Time</p>
                                     </div>
                                   </div>
@@ -560,9 +568,9 @@
           <!-- partial:partials/_footer.html -->
           <footer class="footer">
             <div class="footer-inner-wraper">
-              <div class="d-sm-flex justify-content-center justify-content-sm-between">
-                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © bootstrapdash.com 2020</span>
-                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap dashboard templates</a> from Bootstrapdash.com</span>
+              <div class="d-sm-flex justify-content-center justify-content-sm-between py-2">
+                <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © <a href="https://www.bootstrapdash.com/" target="_blank">bootstrapdash.com </a>2021</span>
+                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Only the best <a href="https://www.bootstrapdash.com/" target="_blank"> Bootstrap dashboard </a> templates</span>
               </div>
             </div>
           </footer>
@@ -579,6 +587,7 @@
     <!-- Plugin js for this page -->
     <script src="assets/vendors/chart.js/Chart.min.js"></script>
     <script src="assets/vendors/jquery-circle-progress/js/circle-progress.min.js"></script>
+    <script src="assets/js/jquery.cookie.js" type="text/javascript"></script>
     <!-- End plugin js for this page -->
     <!-- inject:js -->
     <script src="assets/js/off-canvas.js"></script>

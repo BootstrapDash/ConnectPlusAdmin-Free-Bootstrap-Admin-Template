@@ -61,7 +61,7 @@
 .btn-toolbar {
   .btn-group {
     +.btn-group {
-      @extend .ml-2;
+      @extend .ms-2;
     }
   }
 }
@@ -91,19 +91,5 @@
       background: $value;
       border-color: $value;
     }
-  }
-  // .btn-outline-#{$color} { 
-  //   &:hover,
-  //   &:focus,
-  //   &:active {
-  //     background: theme-gradient-color($color);
-  //     color: $white;
-  //   }
-  // }
+  } 
 }
-/* gradient buttons */
-// @each $color, $value in $theme-gradient-colors {
-//   .btn-gradient-#{$color} {
-//     @include button-gradient-variant($value);
-//   }
-// }

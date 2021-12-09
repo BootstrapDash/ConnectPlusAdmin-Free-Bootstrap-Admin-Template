@@ -138,7 +138,7 @@
             left: 0;
             top: .5rem;
             bottom: 0;
-            background: theme-color(success);
+            background: $success;
             height: 24px;
             width: 4px;
             .rtl & {
@@ -151,7 +151,7 @@
             font-family: $type1-medium;            
           }
           i {
-            color: theme-color(success);
+            color: $success;
           }
         }
       }
@@ -206,7 +206,7 @@
       }
 
     &.nav-category {
-      color: theme-color(dark);
+      color: $dark;
       font-size: 0.8125rem;
       line-height: 16px;
       margin: 25px 0px 10px 0px;
@@ -217,7 +217,7 @@
         padding: 1.2rem 2rem 0.2rem;
 
         &:hover {
-          color: theme-color(dark);
+          color: $dark;
         }
       }
     }
@@ -225,7 +225,7 @@
       margin: 2.5rem 0 !important;
 
       .nav-link {
-        background: theme-color(primary);
+        background: $primary;
         color: $white;
         @include border-radius(2px);
         padding: .875rem 0;
@@ -332,7 +332,7 @@
             color: $sidebar-dark-menu-active-color;
             background: transparent;
             &:before {
-              color: theme-color(success);
+              color: $success;
             }
           }
           &:hover {
