@@ -14,7 +14,7 @@
     "i": "^0.3.6",
     "jquery": "^3.4.1",
     "jquery-circle-progress": "^1.2.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "morris.js": "^0.5.0",
     "nouislider": "^14.0.2",
     "npm": "^6.10.2",
